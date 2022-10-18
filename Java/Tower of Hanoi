@@ -16,7 +16,10 @@ class GFG
 	
 	public static void main(String args[])
 	{
-		int n = 4; // Number of disks
+		
+		Scanner sc=new Scanner();
+		System.out.println("Enter No of Disks you want : ");
+		int n = sc.nextInt(); // Number of disks
 		towerOfHanoi(n, \'A\', \'C\', \'B\'); // A, B and C are names of rods
 	}
 }
